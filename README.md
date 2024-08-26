@@ -145,10 +145,10 @@ git clone https://github.com/daviko/pokemon-battle.git
 cd pokemon-battle
 
 2. Build the Application:
-mvn clean package
+mvn clean package -DskipTests
 
 3. Run the Application:
-java -jar target/pokemon-battle.jar
+java -jar target/pokemon-battle-0.0.1-SNAPSHOT.jar
 
 4. Run with Docker:
 
